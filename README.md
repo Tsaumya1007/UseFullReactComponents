@@ -13,24 +13,22 @@ Above you can see CodeSnippetWithAPI dir where you can find "CodeSnippetWithAPI"
 1. Install react-syntax-highlighter:
    ```sh
    npm install react-syntax-highlighter
-   asdfghj
-   dfghjk
 2. Create a CodeSnippetWithAPI Component and add code of CodeSnippetWithAPI :
     ```sh
    import React, { useState, useEffect } from "react";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
-
-const CodeSnippetWithAPI = ({ url, language = "json" }) => {
-  const [code, setCode] = useState("");
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-  const [copied, setCopied] = useState(false);
-  const [isEditing, setIsEditing] = useState(false);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
+   import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+   import { atomDark } from "react-syntax-highlighter/dist/esm/styles/prism";
+   
+   const CodeSnippetWithAPI = ({ url, language = "json" }) => {
+     const [code, setCode] = useState("");
+     const [loading, setLoading] = useState(true);
+     const [error, setError] = useState(null);
+     const [copied, setCopied] = useState(false);
+     const [isEditing, setIsEditing] = useState(false);
+   
+     useEffect(() => {
+       const fetchData = async () => {
+         try {
         const response = await fetch(url);
         if (!response.ok) throw new Error(`Error: ${response.status}`);
         const data = await response.json();
