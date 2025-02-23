@@ -134,9 +134,9 @@ Above you can see CodeSnippetWithAPI dir where you can find "CodeSnippetWithAPI"
    <CodeSnippetWithAPI url="https://jsonplaceholder.typicode.com/todos/1" />
 thats all
 
-This is just one example—there are many React components available that you can utilize in your project.
+### This is just one example—there are many React components available that you can utilize in your project.
 
-# I also encourage you to share any new React component ideas you have—feel free to add them!
+## I also encourage you to share any new React component ideas you have—feel free to add them!
  
-## Thank you....
+### Thank you....
 
