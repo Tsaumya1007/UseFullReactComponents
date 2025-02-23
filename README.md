@@ -13,4 +13,15 @@ Above you can see CodeSnippetWithAPI dir where you can find "CodeSnippetWithAPI"
 1. Install react-syntax-highlighter:
    ```sh
    npm install react-syntax-highlighter
+2. Create a CodeSnippetWithAPI Component and add code of CodeSnippetWithAPI
+3. Use the Component in Your Project and pass API as props:
+   ```sh
+   <CodeSnippetWithAPI url="https://jsonplaceholder.typicode.com/todos/1" />
+thats all
+
+This is just one example—there are many React components available that you can utilize in your project.
+
+# I also encourage you to share any new React component ideas you have—feel free to add them!
+ 
+## Thank you....
 
