@@ -13,6 +13,8 @@ Above you can see CodeSnippetWithAPI dir where you can find "CodeSnippetWithAPI"
 1. Install react-syntax-highlighter:
    ```sh
    npm install react-syntax-highlighter
+   asdfghj
+   dfghjk
 2. Create a CodeSnippetWithAPI Component and add code of CodeSnippetWithAPI :
     ```sh
    import React, { useState, useEffect } from "react";
